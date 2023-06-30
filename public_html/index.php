@@ -19,10 +19,14 @@ $configuration = new Configuration();
 
 <body>
     <form action="./user/datos.php" method="POST">
+      <div class="">
         <label for="nombre">Nombre</label>
         <input type="text" name="nombre"><hr>
+      </div>
+      <div class="">
         <label for="password">Contraseña</label>
         <input type="password" name="password"><hr>
+      </div>
         <input type="submit" value="Enviar">
     </form>
     <script src="<?php echo $configuration->getURLScript(); ?>"></script>
